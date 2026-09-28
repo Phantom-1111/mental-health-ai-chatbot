@@ -1,0 +1,35 @@
+
+.env
+
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Trained models
+ml/sentiment/sentiment_model_15000/
+ml/emotion/emotion_model/
+ml/safety/safety_model/
+
+# Datasets
+ml/datasets/
+
+# Evaluation datasets
+evaluation/*.parquet
+
+# Evaluation generated results
+evaluation/*_results.csv
+
+# Training outputs
+*_training/
+
+
+# Additional model/training outputs
+ml/sentiment/sentiment_model/
+ml/sentiment/results/
+ml/sentiment/results_15000/
+
+ml/emotion/tweeteval/training/
+ml/emotion/tweeteval/tweeteval_model/
