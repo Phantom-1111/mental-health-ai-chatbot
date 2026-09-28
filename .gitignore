@@ -14,10 +14,10 @@ ml/emotion/emotion_model/
 ml/safety/safety_model/
 
 # Datasets
-ml/datasets/
+# Datasets are tracked in GitHub
 
 # Evaluation datasets
-evaluation/*.parquet
+# Evaluation datasets are tracked in GitHub
 
 # Evaluation generated results
 evaluation/*_results.csv
